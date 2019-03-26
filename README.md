@@ -40,7 +40,10 @@ dpkg -i google-chrome-stable_current_amd64.deb
   `find . -type f -exec chmod 644 {} \;`
  * Deletes all symlinks in folder:  
  `find . -maxdepth 1 -type l -delete`
-
+ * Wipes out your data (be careful! commmit before using this):
+ `badblocks -ws` 
+ * Test your cpu:
+ `for i in 1 2 3 4; do while : ; do : ; done & done &`
 ### HDD check & repair sectors
 ```
 echo "disk 1 sda" > /path/to/doc && badblocks -ws /dev/sda >> /path/to/doc
