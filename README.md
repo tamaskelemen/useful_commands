@@ -25,7 +25,7 @@ dpkg -i google-chrome-stable_current_amd64.deb
 ```
 sudo apt-get install postgres
 sudo apt-get install pgtop 
-```  (specific version eg.: postgres-9.3)
+```
 
 ### Can be useful:
 * login as postgres (psql root user):  
