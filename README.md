@@ -22,7 +22,10 @@ dpkg -i google-chrome-stable_current_amd64.deb
  https://www.sublimetext.com/3
  
 ## Postgres
-`sudo apt-get install postgres`  (specific version eg.: postgres-9.3)
+```
+sudo apt-get install postgres
+sudo apt-get install pgtop 
+```  (specific version eg.: postgres-9.3)
 
 ### Can be useful:
 * login as postgres (psql root user):  
