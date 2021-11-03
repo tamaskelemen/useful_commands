@@ -51,3 +51,9 @@ sudo apt-get install pgtop
 ```
 echo "disk 1 sda" > /path/to/doc && badblocks -ws /dev/sda >> /path/to/doc
 ```
+
+## Linux commands
+* List all available commands in the system   
+ `ls -l /{bin,sbin}/ /usr/local/{bin,sbin} | wc -l`   
+ or  
+ `ls -l /{bin,sbin}/ /usr/local/{bin,sbin} | more`
