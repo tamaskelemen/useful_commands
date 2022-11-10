@@ -23,6 +23,7 @@ dpkg -i google-chrome-stable_current_amd64.deb
  
 ### Colorful man
  `sudo apt-get install most`
+ Then add to bashrc: `echo 'export PAGER="most"' >> ~/.bashrc`
 
 ## Postgres
 ```
