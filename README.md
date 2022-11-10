@@ -21,6 +21,9 @@ dpkg -i google-chrome-stable_current_amd64.deb
 ### Sublime Text
  https://www.sublimetext.com/3
  
+### Colorful man
+ `sudo apt-get install most`
+
 ## Postgres
 ```
 sudo apt-get install postgres
